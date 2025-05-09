@@ -1,7 +1,7 @@
 # DataShield: Enkripsi Berbasis Kriptografi Kuantum
 
 ## 📌 Deskripsi
-**DataShield** adalah aplikasi eksperimental yang mengintegrasikan konsep **kriptografi kuantum** untuk melindungi data digital. Aplikasi ini menyimulasikan algoritma **Quantum Key Distribution (QKD)**, enkripsi berbasis kunci kuantum, serta menyediakan antarmuka pengguna eksperimental berbasis **PyQt**.
+**DataShield** merupakan aplikasi eksperimental yang mengintegrasikan konsep kriptografi kuantum untuk melindungi data digital dengan pendekatan autentikasi kuantum dan pertukaran kunci berbasis simulasi. Aplikasi ini dirancang untuk meningkatkan keamanan data hingga ke tingkat teoritis yang paling tinggi.
 
 ---
 
