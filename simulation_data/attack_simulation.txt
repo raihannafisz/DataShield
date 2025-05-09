@@ -1,0 +1,8 @@
+=== Attack Simulation Log ===
+Timestamp: 2025-05-09 14:31:40
+Type: Intercept-Resend Attack
+Attacker: Eve
+Qubits Intercepted: 128
+Detected mismatches in basis: 51
+Key mismatch rate: 39%
+Conclusion: Key exchange was not secure due to presence of eavesdropping.

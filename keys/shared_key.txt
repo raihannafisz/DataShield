@@ -1,0 +1,15 @@
+# File ini akan diisi oleh program dengan kunci hasil QKD.
+# Format default adalah deretan bit hasil penyaringan dari Alice dan Bob.
+# Contoh isi:
+# 1010010110101010100110101010110010101010100101010101010101010110
+
+# Program Python untuk menyimpan dan membaca kunci bersama
+
+def save_shared_key(filepath, key_bits):
+    with open(filepath, 'w') as f:
+        f.write(''.join(str(bit) for bit in key_bits))
+
+def load_shared_key(filepath):
+    with open(filepath, 'r') as f:
+        bitstring = f.read().strip()
+    return [int(b) for b in bitstring]

@@ -1,0 +1,4 @@
+- Python 3
+- [Qiskit](https://qiskit.org/) – Untuk simulasi qubit dan QKD
+- PyQt5 – GUI Desktop
+- AES (Cryptography) – Enkripsi data menggunakan kunci dari QKD

@@ -1,0 +1,9 @@
+=== Quantum Channel Log ===
+Timestamp: 2025-05-09 14:31:40
+Bit Length: 128
+Alice Bases: Z X Z X X Z X Z Z X Z X Z X Z X Z X X X X X X Z Z Z Z Z X X Z Z X Z Z Z Z Z X Z Z Z Z Z Z Z X X Z X X X Z Z Z X Z X X X X X Z X Z Z Z X X X X Z X X X Z X Z Z Z Z Z Z Z X X X X Z X X Z Z Z Z Z Z Z Z Z X X Z Z X X Z Z Z X Z Z X Z Z X Z Z X X Z X Z X X X X X
+Bob Bases:   Z X X X Z X X Z X Z Z X X X Z Z X X Z X Z X Z Z Z Z X Z Z Z Z Z X Z Z Z Z Z Z Z X Z Z X X Z Z X Z Z X X X X Z Z Z X X Z X Z Z X Z Z X Z X X X Z X Z Z Z Z X X X X X X Z X X X X X Z X X Z Z Z Z Z X X Z X X Z Z X Z Z Z Z X Z Z X Z X X X Z Z Z Z Z X X Z Z Z X
+Sifted Key:  1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 0 0 1 1 1 0 1 1 0 0 1 0 0 0 1 0 1 0 1 1 0 0 0 0 1 0 1 1 0 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 0 1 1 1 0 0 1 0 1
+Key Agreement Success Rate: 60%
+Noise Detected: Yes
+Status: Not Secure

@@ -1,0 +1,74 @@
+# DataShield: Enkripsi Berbasis Kriptografi Kuantum
+
+## 📌 Deskripsi
+**DataShield** adalah aplikasi eksperimental yang mengintegrasikan konsep **kriptografi kuantum** untuk melindungi data digital. Aplikasi ini menyimulasikan algoritma **Quantum Key Distribution (QKD)**, enkripsi berbasis kunci kuantum, serta menyediakan antarmuka pengguna eksperimental berbasis **PyQt**.
+
+---
+
+## 🚀 Fitur Utama
+1. **Simulasi Enkripsi Kuantum**
+2. **Simulasi Protokol QKD (BB84)**
+3. **Eksperimen GUI Kuantum menggunakan PyQt**
+
+---
+
+## 🧪 Teknologi yang Digunakan
+- Python 3
+- [Qiskit](https://qiskit.org/) – Untuk simulasi qubit dan QKD
+- PyQt5 – GUI Desktop
+- AES (Cryptography) – Enkripsi data menggunakan kunci dari QKD
+
+---
+
+## 🗂️ Struktur Folder
+```
+DataShield/
+│
+├── app/                  # Modul utama simulasi & enkripsi
+├── ui/                   # GUI PyQt5
+├── keys/                 # Penyimpanan kunci hasil QKD
+├── simulation_data/      # Log kanal & penyadapan
+├── tests/                # Unit test
+├── main.py               # Entry point aplikasi
+└── README.md             # Dokumentasi ini
+```
+
+---
+
+## 🔧 Cara Menjalankan
+1. Pastikan Python 3 sudah terinstal
+2. Install dependensi:
+```bash
+pip install qiskit pyqt5 cryptography
+```
+3. Jalankan aplikasi:
+```bash
+python main.py
+```
+
+---
+
+## 🧠 Konsep QKD yang Digunakan
+Aplikasi ini menyimulasikan protokol **BB84**, yaitu:
+- Alice mengirim qubit acak (0/1) dengan basis acak (Z/X)
+- Bob mengukur dengan basis acak
+- Basis disinkronisasi → didapat shared key
+- Kunci ini dipakai untuk enkripsi AES
+
+---
+
+## 📂 File Penting
+- `main.py` → Menjalankan GUI
+- `qkd_simulator.py` → Simulasi pengiriman qubit
+- `encryption_module.py` → Enkripsi & dekripsi data
+- `channel_logger.py` → Simulasi kanal dan penyadapan
+
+---
+
+## 👨‍💻 Developer
+> Mahasiswa – Tugas akhir / proyek eksplorasi kuantum
+
+---
+
+## ⚠️ Catatan
+Aplikasi ini adalah **simulasi**, bukan sistem kriptografi produksi. Semua proses terjadi secara lokal & virtual.
