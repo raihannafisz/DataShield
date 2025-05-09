@@ -66,9 +66,9 @@ Aplikasi ini menyimulasikan protokol **BB84**, yaitu:
 ---
 
 ## 👨‍💻 Developer
-> Raihan Nafis Zuraiq (6622600083)
-> Sopi Marselia Dafina Putri (6622600079)
-> Muti Meila Sari (6622600082)
+> - Raihan Nafis Zuraiq (6622600083)
+> - Sopi Marselia Dafina Putri (6622600079)
+> - Muti Meila Sari (6622600082)
 
 ---
 
